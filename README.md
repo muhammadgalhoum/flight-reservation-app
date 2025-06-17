@@ -2,10 +2,32 @@
 
 A simple desktop application for managing flight reservations built with Python, Tkinter, and SQLite.
 
+## Screenshots
+
+### 🏠 Home Page
+
+![Home](assets/screenshots/home.png)
+
+### 🛫 Book a Flight
+
+![Booking](assets/screenshots/booking.png)
+
+### 📋 View Reservations
+
+![Reservations](assets/screenshots/reservations.png)
+
+### ✏️ Update Existing Reservation
+
+![Update Reservation](assets/screenshots/update_reservation.png)
+
+---
+
 ## Prerequisites
 
-* **Python 3.7+** installed on your system
+* **Python 3.7+** installed on your system  
 * **pip** (Python package installer)
+
+---
 
 ## Setup and Installation
 
@@ -14,7 +36,7 @@ A simple desktop application for managing flight reservations built with Python,
    ```bash
    git clone https://github.com/muhammadgalhoum/flight-reservation-app.git
    cd flight-reservation-app
-   ```
+
 
 2. **Create a virtual environment**
 
@@ -92,6 +114,6 @@ To generate a Windows `.exe` file:
 
 ## Key Features and Constraints
 
-* **Unique Reservations**: Prevents duplicate bookings by enforcing a unique constraint on `(flight_number, date, seat_number)`. No two passengers can book the same seat on the same flight and date.
-* **Custom Date Picker**: Includes a built-in date picker widget (`custom_date_picker.py`) that avoids external dependencies (like `tkcalendar`) and ensures compatibility and ease of use.
-* **Date Validation**: Users cannot select or enter past dates. Reservations are limited to today or future dates only.
+* ✅ **Unique Reservations**: Prevents duplicate bookings by enforcing a unique constraint on `(flight_number, date, seat_number)`. No two passengers can book the same seat on the same flight and date.
+* 📅 **Custom Date Picker**: Includes a built-in date picker widget (`custom_date_picker.py`) that avoids external dependencies (like `tkcalendar`) and ensures compatibility and ease of use.
+* 🔒 **Date Validation**: Users cannot select or enter past dates. Reservations are limited to today or future dates only.
