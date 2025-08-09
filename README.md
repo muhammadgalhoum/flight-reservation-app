@@ -105,7 +105,7 @@ To generate a Windows `.exe` file:
          └── flights.db
      ```
 
-2. **Run the executable**
+2. **Run the executable File**
    * Double-click `FlightBooking.exe` to run the app.
 
 ---
