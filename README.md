@@ -105,10 +105,8 @@ To generate a Windows `.exe` file:
          └── flights.db
      ```
 
-2. **Distribute the executable**
-
-   * Zip the `dist/FlightBooking/` folder and share it.
-   * Your friend can unzip and double-click `FlightBooking.exe` to run the app.
+2. **Run the executable**
+   * Double-click `FlightBooking.exe` to run the app.
 
 ---
 
